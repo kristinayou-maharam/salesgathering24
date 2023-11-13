@@ -1,0 +1,251 @@
+@font-face {
+    font-family: "maharam";
+    src: url("../src/MaharamNeue-Regular.woff");
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: "maharam-medium";
+    src: url("../src/MaharamNeue-Medium.woff");
+    font-weight: medium;
+  }
+
+body{
+    /* margin-left: 200px;
+    margin-right: 200px; */
+    background-color: #F6F6E9;
+    margin: 0;
+}
+
+#logo{
+    width: 150px;
+    margin-left: 15vw;
+
+}
+
+#topnav{
+    border-top: #7C5A38 solid 1px;
+    border-bottom: #7C5A38 solid 1px;
+    padding-top: 40px;
+    padding-bottom: 45px;
+    margin-top: 60px;
+}
+
+#menu{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50vw;
+    float: right;
+    margin-right: 15vw;
+}
+
+.selected{
+text-decoration: underline;
+}
+
+p{
+    font-size: 16px;
+    color: #7C5938;
+    font-family: "maharam";
+    font-weight: normal;
+}
+
+h1{
+    font-size: 48px;
+    color: #7C5938;
+    font-family: "maharam";
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+
+h2{
+    font-size: 30px;
+    color: #7C5938;
+    font-family: "maharam";
+    font-weight: normal;
+}
+
+
+#dates{
+    margin-top: 120px;
+}
+
+#welcome{
+    margin-left: 18vw;
+    width: 30vw;
+    margin-top: 0;
+    display: inline-block;
+    margin-bottom: 150px;
+    line-height: 1.6;
+}
+
+#speakersleft{
+    margin-left: 15vw;
+    border-right: #7C5938 solid 1px;
+    width: 35vw;
+    height: 200vw;
+    padding-top: 80px;
+    display: inline-block; 
+}
+
+#left{
+    margin-left: 15vw;
+    border-right: #7C5938 solid 1px;
+    width: 35vw;
+    height: 150vw;
+    margin-top: 0;
+    display: inline-block;
+}
+
+#right{
+    display: inline-block;
+    width: 43vw;
+    position: absolute;
+    margin-top: 120px;
+    padding-top: 0;
+
+}
+
+#rightimg{
+    display: inline-block;
+    width: 43vw;
+    position: absolute;
+    margin-top: 0px;
+    padding-top: 0;
+}
+
+#event{
+    margin-left: 2vw;
+    margin-top: 0px;
+    display: inline-block;
+    position: relative;
+}
+
+#eventextra{
+    margin-left: 2vw;
+    margin-top: 0px;
+    margin-bottom: 0;
+    display: inline-block;
+    position: relative;
+}
+
+#eventdetails{
+    display: inline-block;
+    width: 150px;
+    margin-left: 5vw;
+}
+
+#extradetails{
+    display: block;
+    margin-left: 18vw;
+    margin-bottom: 50px;
+}
+
+#speakername{
+    margin-top: 50px;
+    margin-bottom: 0;
+
+}
+
+#speakerdetails{
+    margin-bottom: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: #7C5938;
+}
+
+#break{
+    width: 100%;
+    height: 20px;
+    border-bottom: 1px solid #7C5938;
+    text-align: center;
+    display: block;
+}
+
+#breakline{
+   padding:20px 10px;
+   font-size: 16px;
+    color: #7C5938;
+    font-family: "maharam";
+    font-weight: normal;
+    background-color: #F6F6E9;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+#mainimage{
+    width: 65vw;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border:#7C5938 2px solid;
+    border-radius: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#speakerimg{
+    width: 50vw;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    margin-bottom: 3vw;
+    border-bottom: #7C5938 1px solid;
+    /* border-radius: 30px; */
+}
+
+#speakerbio{
+    width: 35vw;
+    margin-left: 5vw;
+    line-height:1.6 ;
+    margin-top: 0;
+}
+
+#keylocations{
+    margin-bottom: 100px;
+    margin-left: 17vw;
+}
+
+#sightsandsounds{
+    margin-bottom: 100px;
+    margin-left: 17vw;
+}
+
+#locationdetails{
+    display: inline-block;
+    margin-right: 1vw;
+    vertical-align: top;
+
+}
+
+#otherlocations{
+    display: inline-block;
+    margin-right: 5vw;
+    vertical-align: top;
+    margin-top: 50px;
+    width: 12vw;
+
+}
+
+#locationimg{
+    width: 20vw;
+    height:220px;
+    margin-right: 2vw;
+    margin-top: 3vh; 
+    border:#7C5938 2px solid;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+#icon{
+    width: 4vw;
+}
+
+#attendeenames{
+padding-left: 5vw;
+display: inline-block;
+vertical-align: top;
+}
