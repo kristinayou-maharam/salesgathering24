@@ -84,7 +84,7 @@ h2{
     margin-left: 15vw;
     border-right: #7C5938 solid 1px;
     width: 35vw;
-    height: 200vw;
+    height: 250vh;
     padding-top: 80px;
     display: inline-block; 
 }
@@ -93,7 +93,7 @@ h2{
     margin-left: 15vw;
     border-right: #7C5938 solid 1px;
     width: 35vw;
-    height: 150vw;
+    height: 300vh;
     margin-top: 0;
     display: inline-block;
 }
