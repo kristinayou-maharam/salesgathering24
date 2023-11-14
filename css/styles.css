@@ -18,7 +18,8 @@ body{
 }
 
 #logo{
-    width: 150px;
+    width: 10vw;
+    margin-top: 1vh;
     margin-left: 15vw;
 
 }
@@ -178,11 +179,10 @@ a{
 }
 
 #mainimage{
-    width: 65vw;
-    margin-top: 100px;
+    width: 100vw;
+    margin-top: 0px;
     margin-bottom: 100px;
-    border:#7C5938 2px solid;
-    border-radius: 30px;
+    border-bottom:#7C5938 1px solid;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -248,4 +248,8 @@ a{
 padding-left: 5vw;
 display: inline-block;
 vertical-align: top;
+}
+
+#contactblock{
+    width: 50%;
 }
