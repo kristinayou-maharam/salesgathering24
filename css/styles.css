@@ -15,10 +15,21 @@ body{
     margin-right: 200px; */
     background-color: #F6F6E9;
     margin: 0;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    background: #F6F6E9;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+ background: #7C5A38;
+ -webkit-border-radius: 1ex;
 }
 
 #logo{
-    width: 10vw;
+    width: 150px;
     margin-top: 1vh;
     margin-left: 15vw;
 
@@ -46,10 +57,11 @@ text-decoration: underline;
 }
 
 p{
-    font-size: 16px;
+    font-size: 1rem;
     color: #7C5938;
     font-family: "maharam";
     font-weight: normal;
+    vertical-align: top;
 }
 
 h1{
@@ -58,6 +70,7 @@ h1{
     font-family: "maharam";
     font-weight: normal;
     margin-bottom: 50px;
+    vertical-align: top;
 }
 
 h2{
@@ -97,6 +110,7 @@ h2{
     height: 300vh;
     margin-top: 0;
     display: inline-block;
+    height: 280vh;
 }
 
 #right{
@@ -105,6 +119,7 @@ h2{
     position: absolute;
     margin-top: 120px;
     padding-top: 0;
+    height: 250vh;
 
 }
 
@@ -180,6 +195,7 @@ a{
 
 #mainimage{
     width: 100vw;
+    
     margin-top: 0px;
     margin-bottom: 100px;
     border-bottom:#7C5938 1px solid;
@@ -223,7 +239,7 @@ a{
 
 #otherlocations{
     display: inline-block;
-    margin-right: 5vw;
+    margin-right: 6vw;
     vertical-align: top;
     margin-top: 50px;
     width: 12vw;
