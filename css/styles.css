@@ -49,7 +49,7 @@ body{
     justify-content: space-evenly;
     width: 50vw;
     float: right;
-    margin-right: 15vw;
+    margin-right: 5vw;
 }
 
 .selected{
@@ -136,6 +136,20 @@ h2{
     margin-top: 0px;
     display: inline-block;
     position: relative;
+    width: 20vw;
+}
+
+.linkcursor:hover{
+    cursor: url("/img/arrow.png"), auto; 
+    text-decoration: underline;
+}
+
+#eventnocursor{
+    margin-left: 2vw;
+    margin-top: 0px;
+    display: inline-block;
+    position: relative;
+    width: 20vw;
 }
 
 #eventextra{
@@ -144,6 +158,7 @@ h2{
     margin-bottom: 0;
     display: inline-block;
     position: relative;
+    width: 20vw;
 }
 
 #eventdetails{
@@ -172,6 +187,7 @@ a{
     text-decoration: none;
     color: #7C5938;
 }
+
 
 #break{
     width: 100%;
@@ -261,7 +277,7 @@ a{
 }
 
 #attendeenames{
-padding-left: 5vw;
+padding-left: 4vw;
 display: inline-block;
 vertical-align: top;
 }
