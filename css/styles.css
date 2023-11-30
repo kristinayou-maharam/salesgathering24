@@ -140,8 +140,14 @@ h2{
 }
 
 .linkcursor:hover{
-    cursor: url("/img/arrow.png"), auto; 
+    cursor: url("/img/arrow3.png"), auto; 
     text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+.smallcursor:hover{
+    cursor: url("/img/arrow3-small.png"), auto;
+
 }
 
 #eventnocursor{
@@ -210,8 +216,7 @@ a{
 }
 
 #mainimage{
-    width: 100vw;
-    
+    width: 100vw; 
     margin-top: 0px;
     margin-bottom: 100px;
     border-bottom:#7C5938 1px solid;
@@ -264,11 +269,11 @@ a{
 
 #locationimg{
     width: 20vw;
-    height:220px;
+    /* height:220px; */
     margin-right: 2vw;
     margin-top: 3vh; 
-    border:#7C5938 2px solid;
-    border-radius: 30px;
+    border:#7C5938 1px solid;
+    /* border-radius: 30px; */
     display: inline-block;
 }
 
