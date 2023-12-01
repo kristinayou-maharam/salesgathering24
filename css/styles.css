@@ -120,7 +120,15 @@ h2{
     margin-top: 120px;
     padding-top: 0;
     height: 250vh;
+}
 
+#groupright{
+    display: inline-block;
+    width: 43vw;
+    position: absolute;
+    margin-top: 120px;
+    padding-top: 0;
+    height: 250vh;
 }
 
 #rightimg{
@@ -289,4 +297,118 @@ vertical-align: top;
 
 #contactblock{
     width: 50%;
+}
+
+#hamburger{
+    display: none;
+}
+
+#mobilemenu{
+    background-color: #7C5938;
+    color:#F6F6E9;
+    display: block;
+    z-index: 1000;
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: none;
+}
+
+@media only screen and (max-width: 1000px){
+    #left{
+        display: block;
+        width: 100vw;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        margin: 0;
+        height: 25vh !important;
+    };
+
+    #right{
+        display: block;
+        width: 100vw;
+        margin-top: 0;
+        padding-bottom: 200px !important;
+    }
+
+    #event{
+        display: inline-block;
+        width: 50vw;
+        text-align: left;
+        margin-left: 20vw;
+    }
+
+    #eventextra{
+        display: inline-block;
+        width: 50vw;
+        text-align: left;
+        margin-left: 20vw;
+    }
+
+    #eventdetails{
+        display: inline-block;
+        text-align: left;
+        width: 400px;
+        margin-left: 20vw;
+    }
+
+    #eventblock{
+        text-align: left;
+    }
+
+    #menu{
+        display: none;
+    }
+
+    #topnav{
+        margin-top: 0;
+    }
+
+    #logo{
+        margin-left: 33vw;
+    }
+
+    #hamburger{
+    display: inline-block;
+    position: fixed;
+    width: 30px;
+    left: 85vw;
+    top: 50px;
+}
+
+p{
+    font-size: 18px;
+}
+h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+#notice{
+margin-left: 20vw !important;
+width: 50vw !important;
+}
+
+#divide{
+    margin-left: 15vw !important;
+    width: 100vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+.linkcursor{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+#groupsright{
+     display: block;
+        width: 100vw;
+        margin-top: 350px;
+        padding-bottom: 200px !important;
+}
+
+#back{
+    text-align: center;
+}
 }
