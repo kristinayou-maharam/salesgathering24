@@ -309,8 +309,9 @@ vertical-align: top;
     display: block;
     z-index: 1000;
     height: 100vh;
-    overflow-y: hidden;
+    overflow-y: scroll;
     overflow-x: hidden;
+
     display: none;
 }
 
@@ -322,6 +323,7 @@ vertical-align: top;
         padding-bottom: 0;
         margin: 0;
         height: 25vh !important;
+        border: none;
     };
 
     #right{
@@ -410,5 +412,9 @@ width: 50vw !important;
 
 #back{
     text-align: center;
+}
+
+#body{
+    overflow-x: hidden;
 }
 }
