@@ -311,7 +311,6 @@ vertical-align: top;
     height: 100vh;
     overflow-y: scroll;
     overflow-x: hidden;
-
     display: none;
 }
 
@@ -416,5 +415,16 @@ width: 50vw !important;
 
 #body{
     overflow-x: hidden;
+}
+
+#mainimage{
+    height: 70vh;
+    width: auto;
+    object-fit: cover;
+}
+
+#welcome{
+    width: 80vw;
+    margin-left: 10vw;
 }
 }
