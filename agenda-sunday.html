@@ -7,6 +7,19 @@
     <title>Maharam Sales Gathering 2024</title>
 </head>
 <body>
+<div id="mobilemenu">
+    <img id="logo" src="img/Maharam-SmallUseLogo_Beige.svg"></a>
+    <img id="exit" style="z-index: 1200; width: 30px;margin-top: 45px;margin-left: 15vw;" src="img/exit.svg">
+
+    <h1 style="color: #F6F6E9; margin-top: 100px; text-decoration: underline; text-decoration-thickness: 2px;">Agenda</h1>
+    <h1 style="color: #F6F6E9; text-decoration: underline; text-decoration-thickness: 2px;">Speakers</h1>
+    <h1 style="color: #F6F6E9; text-decoration: underline; text-decoration-thickness: 2px;">Map</h1>
+    <h1 style="color: #F6F6E9; text-decoration: underline; text-decoration-thickness: 2px;">Locations</h1>
+    <h1 style="color: #F6F6E9; text-decoration: underline; text-decoration-thickness: 2px;">Tours</h1>
+    <h1 style="color: #F6F6E9; text-decoration: underline; text-decoration-thickness: 2px;">Attendees</h1>
+    <h1 style="color: #F6F6E9; text-decoration: underline; text-decoration-thickness: 2px;">Contacts</h1>
+
+</div>
     <div id="topnav">
         <a href="index.html">
         <img id="logo" src="img/Maharam_SmallUseLogo_Brown.svg"></a>
@@ -19,6 +32,8 @@
             <a href="all.html"><p>Attendees</p></a>
             <a href="accommodations.html"><p>Contacts</p></a>
         </div>
+        <img id="hamburger" src="img/hamburger.svg" onclick="show()">
+
     </div>
     <div id="left" style="height: 100vh;"><h1 id="dates" style="color: red;">Sunday, 01.21</h1>
 <a href="./agenda-monday.html" class="linkcursor"><h1>Monday, 01.22</h1></a>
@@ -42,5 +57,15 @@
     </div>
     </div>
     
+    <script>
+        function show() {
+            var mobnav = document.getElementById("mobilemenu");
+            if (mobnav.style.display === "none"){
+                mobnav.style.display = "block";
+            } else{
+                mobnav.style.display = "none";
+            }
+        }
+    </script>
 </body>
 </html>
