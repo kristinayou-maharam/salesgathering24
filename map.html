@@ -7,6 +7,18 @@
     <title>Maharam Sales Gathering 2024</title>
 </head>
 <body>
+    <div id="mobilemenu">
+    <img id="logo" src="img/Maharam-SmallUseLogo_Beige.svg"></a>
+    <img id="exit" style="z-index: 1200; width: 30px;margin-top: 45px;margin-left: 15vw;" src="img/exit.svg">
+
+    <a href="agenda-sunday.html"><h1 style="color: #F6F6E9; margin-top: 100px; text-decoration: underline; text-decoration-thickness: 2px;">Agenda</h1></a>
+    <a href="ceciliaalemani.html"><h1 style="color: #F6F6E9; text-decoration: underline; text-decoration-thickness: 2px;">Speakers</h1></a>
+    <a href="map.html"><h1 style="color: #F6F6E9; text-decoration: underline; text-decoration-thickness: 2px;">Map</h1></a>
+    <a href="251.html"><h1 style="color: #F6F6E9; text-decoration: underline; text-decoration-thickness: 2px;">Locations</h1></a>
+    <a href="tours.html"><h1 style="color: #F6F6E9; text-decoration: underline; text-decoration-thickness: 2px;">Tours</h1></a>
+    <a href="all.html"><h1 style="color: #F6F6E9; text-decoration: underline; text-decoration-thickness: 2px;">Attendees</h1></a>
+    <a href="accommodations.html"><h1 style="color: #F6F6E9; text-decoration: underline; text-decoration-thickness: 2px;">Contacts</h1></a>
+</div>
   <div id="topnav">
     <a href="index.html"><img id="logo" src="img/Maharam_SmallUseLogo_Brown.svg"></a>
     <div id="menu">
@@ -19,6 +31,8 @@
         <a href="all.html"><p>Attendees</p></a>
         <a href="accommodations.html"><p>Contacts</p></a>
     </div>
+            <img id="hamburger" src="img/hamburger.svg" onclick="show()">
+
 </div>
     <iframe id="mainimage" src="https://www.google.com/maps/d/u/0/embed?mid=1fFozvyx1TR_SbKEk-WT7fwzAUwIEz-U&ehbc=2E312F&noprof=1" width="60vw" height="700"></iframe>
 
@@ -78,7 +92,7 @@
 
   <div id="sightsandsounds">
 
-    <div  style="width: 82%; height: 60px; margin-top: 40px; margin-bottom: 100px; margin-left:0vw; margin: right 100px; border-bottom: 1px solid #7C5938; text-align:left">
+    <div id="reccategory" style="width: 82%; height: 60px; margin-top: 40px; margin-bottom: 100px; margin-left:0vw; margin: right 100px; border-bottom: 1px solid #7C5938; text-align:left">
       <span id="breakline">
         <h2 style="background-color: #F6F6E9; width: 100px; padding: 0;"><strong>Shop</strong></h2>
       </span>
@@ -170,7 +184,7 @@
 
 
 
-  <div  style="width: 82%; height: 60px; margin-top: 100px; margin-bottom: 100px; margin-left:0vw;border-bottom: 1px solid #7C5938; text-align:left">
+  <div  id="reccategory" style="width: 82%; height: 60px; margin-top: 100px; margin-bottom: 100px; margin-left:0vw;border-bottom: 1px solid #7C5938; text-align:left">
     <span id="breakline">
       <h2 style="background-color: #F6F6E9; width: 140px;"><strong>Gallery</strong></h2>
     </span>
@@ -226,7 +240,7 @@
 
 
 
-<div  style="width: 82%; height: 60px; margin-top: 100px; margin-bottom: 120px; margin-left:0vw;border-bottom: 1px solid #7C5938; text-align:left">
+<div id="reccategory" style="width: 82%; height: 60px; margin-top: 100px; margin-bottom: 120px; margin-left:0vw;border-bottom: 1px solid #7C5938; text-align:left">
   <span id="breakline">
     <h2 style="background-color: #F6F6E9; width: 80px;"><strong>Eats</strong></h2>
   </span>
@@ -290,9 +304,9 @@
 
 
 
-<div  style="width: 82%; height: 60px; margin-top: 100px; margin-bottom: 100px; margin-left:0vw; border-bottom: 1px solid #7C5938; text-align:left">
+<div id="reccategory" style="width: 82%; height: 60px; margin-top: 100px; margin-bottom: 100px; margin-left:0vw; border-bottom: 1px solid #7C5938; text-align:left">
   <span id="breakline">
-    <h2 style="background-color: #F6F6E9; width: 420px;"><strong>Breakfast Near the Standard</strong></h2>
+    <h2 id="longtitle" style="background-color: #F6F6E9; width: 420px;"><strong>Breakfast Near the Standard</strong></h2>
   </span>
 </div>
 
@@ -330,7 +344,7 @@
 
 
 
-<div  style="width: 82%; height: 60px; margin-top: 100px; margin-bottom: 100px; margin-left:0vw;border-bottom: 1px solid #7C5938; text-align:left">
+<div id="reccategory" style="width: 82%; height: 60px; margin-top: 100px; margin-bottom: 100px; margin-left:0vw;border-bottom: 1px solid #7C5938; text-align:left">
   <span id="breakline">
     <h2 style="background-color: #F6F6E9; width: 100px;"><strong>Other</strong></h2>
   </span>
@@ -346,7 +360,16 @@
 
 
 
-
+ <script>
+        function show() {
+            var mobnav = document.getElementById("mobilemenu");
+            if (mobnav.style.display === "none"){
+                mobnav.style.display = "block";
+            } else{
+                mobnav.style.display = "none";
+            }
+        }
+    </script> 
 
 
 
