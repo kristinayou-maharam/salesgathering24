@@ -308,7 +308,7 @@ vertical-align: top;
     color:#F6F6E9;
     display: block;
     z-index: 1000;
-    height: 100vh;
+    height: 140vh;
     overflow-y: scroll;
     overflow-x: hidden;
     display: none;
@@ -321,7 +321,7 @@ vertical-align: top;
         margin-bottom: 0;
         padding-bottom: 0;
         margin: 0;
-        height: 25vh !important;
+        height: 38vh !important;
         border: none;
     };
 
@@ -329,7 +329,12 @@ vertical-align: top;
         display: block;
         width: 100vw;
         margin-top: 0;
-        padding-bottom: 200px !important;
+        margin-bottom: 500px !important;
+        height: 450vh !important;
+    }
+
+    #back{
+        text-align: center;
     }
 
     #event{
@@ -363,6 +368,7 @@ vertical-align: top;
 
     #topnav{
         margin-top: 0;
+        width: 100vw;
     }
 
     #logo{
