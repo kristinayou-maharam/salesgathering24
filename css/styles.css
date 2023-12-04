@@ -137,6 +137,7 @@ h2{
     position: absolute;
     margin-top: 0px;
     padding-top: 0;
+
 }
 
 #event{
@@ -318,16 +319,49 @@ vertical-align: top;
     #left{
         display: block;
         width: 100vw;
-        margin-bottom: 0;
+        margin-bottom: 300px !important;
         padding-bottom: 0;
         margin: 0;
-        height: 38vh !important;
+        height: 40vh !important;
         border: none;
-    };
+    }
+
+ #speakersleft{
+    width: 100vw;
+    border: none;
+    margin-left: 0;
+    height: 100vh !important;
+    display: block;
+ }
+
+#rightimg{
+    width: 100vw;
+    display: block;
+    margin-bottom: 200px !important;
+}
+
+#speakerimg{
+    width: 100vw;
+    margin-bottom: 8vh;
+    margin-top: 10vh;
+    border-top:#7C5938 1px solid;
+}
+
+#event{
+    width: 100vw !important;
+    margin-bottom: 3vh !important;
+}
+
+#speakerbio{
+    width: 80vw;
+    margin-left: 5vw;
+    margin-bottom: 100px !important;
+}
 
     #right{
         display: block;
-        width: 100vw;
+        width: 80vw;
+        margin-left: 5vw;
         margin-top: 0;
         margin-bottom: 500px !important;
         height: 450vh !important;
@@ -339,7 +373,7 @@ vertical-align: top;
 
     #event{
         display: inline-block;
-        width: 50vw;
+        width: 40vw !important;
         text-align: left;
         margin-left: 20vw;
     }
@@ -384,11 +418,15 @@ vertical-align: top;
 }
 
 p{
-    font-size: 18px;
+    font-size: 16px;
 }
 h1{
-    font-size: 36px;
+    font-size: 30px;
     text-align: center;
+}
+
+h2{
+    font-size: 24px;
 }
 
 #notice{
@@ -424,13 +462,40 @@ width: 50vw !important;
 }
 
 #mainimage{
-    height: 70vh;
-    width: auto;
+width: 90vw;
     object-fit: cover;
+}
+
+iframe{
+    width: 100vw;
 }
 
 #welcome{
     width: 80vw;
     margin-left: 10vw;
+}
+
+#eventblock{
+    width: 50vw;
+}
+
+#locationimg{
+    width: 70vw;
+}
+
+#otherlocations{
+    width: 34vw;
+}
+
+#reccategory{
+    margin-bottom: 0px !important;
+}
+
+#longtitle{
+    width: 50vw !important;
+}
+
+#attendeenames{
+    width: 30vw;
 }
 }
