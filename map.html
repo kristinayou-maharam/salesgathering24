@@ -9,7 +9,7 @@
 <body>
     <div id="mobilemenu">
     <img id="logo" src="img/Maharam-SmallUseLogo_Beige.svg"></a>
-    <img id="exit" style="z-index: 1200; width: 30px;margin-top: 45px;margin-left: 10vw;" src="img/exit.svg">
+    <img id="exit" style="z-index: 1200; width: 30px;margin-top: 45px;margin-left: 10vw;" src="img/exit.svg" onclick="show()">
 
     <a href="agenda-sunday.html"><h1 style="color: #F6F6E9; margin-top: 100px; text-decoration: underline; text-decoration-thickness: 2px;">Agenda</h1></a>
     <a href="ceciliaalemani.html"><h1 style="color: #F6F6E9; text-decoration: underline; text-decoration-thickness: 2px;">Speakers</h1></a>
@@ -357,20 +357,44 @@
 <p style="text-decoration: underline;">More Info</p>
 
 </div>
+<script>
+  function show() {
+      var mobnav = document.getElementById("mobilemenu");
+      var main = document.getElementById("mainimage");
+      var key = document.getElementById("keylocations");
+      var sights = document.getElementById("sightsandsounds");
 
+      if (mobnav.style.display === "none"){
+          mobnav.style.display = "block";
+      } else{
+          mobnav.style.display = "none";
+      }
 
+      if (main.style.display === "block"){
+          main.style.display = "none";
+      } else{
+          main.style.display = "block";
+      }
+      if (key.style.display === "block"){
+          key.style.display = "none";
+      } else{
+          key.style.display = "block";
+      }
 
- <script>
-        function show() {
-            var mobnav = document.getElementById("mobilemenu");
-            if (mobnav.style.display === "none"){
-                mobnav.style.display = "block";
-            } else{
-                mobnav.style.display = "none";
-            }
-        }
-    </script> 
+      if (nav.style.display === "block"){
+          nav.style.display = "none";
+      } else{
+          nav.style.display = "block";
+      }
 
+      if (sights.style.display === "block"){
+          sights.style.display = "none";
+      } else{
+          sights.style.display = "block";
+      }
+  }
+
+</script>
 
 
 
