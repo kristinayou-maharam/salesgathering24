@@ -49,7 +49,7 @@ body{
     justify-content: space-evenly;
     width: 50vw;
     float: right;
-    margin-right: 5vw;
+    margin-right: 15vw;
 }
 
 .selected{
@@ -149,13 +149,13 @@ h2{
 }
 
 .linkcursor:hover{
-    cursor: url("/img/arrow3.png"), auto; 
+    cursor: url("../img/arrow3.png"), auto; 
     text-decoration: underline;
     text-decoration-thickness: 2px;
 }
 
 .smallcursor:hover{
-    cursor: url("/img/arrow3-small.png"), auto;
+    cursor: url("../img/arrow3-small.png"), auto;
 
 }
 
@@ -296,6 +296,12 @@ display: inline-block;
 vertical-align: top;
 }
 
+#contacts{
+    padding-left: 4vw;
+    display: inline-block;
+    vertical-align: top;
+    }
+
 #contactblock{
     width: 50%;
 }
@@ -411,7 +417,7 @@ vertical-align: top;
 
     #hamburger{
     display: inline-block;
-    position: fixed;
+    position: absolute;
     width: 30px;
     left: 85vw;
     top: 50px;
@@ -497,5 +503,20 @@ iframe{
 
 #attendeenames{
     width: 30vw;
+}
+
+#contacts{
+    width: 90vw;
+    margin-left: 10vw;
+}
+
+#contactblock{
+    display: block;
+    width: 70% !important;
+}
+
+#divide{
+    width: 50% !important;
+    margin-left: 10vw !important;
 }
 }
