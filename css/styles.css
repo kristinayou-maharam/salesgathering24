@@ -49,7 +49,7 @@ body{
     justify-content: space-evenly;
     width: 50vw;
     float: right;
-    margin-right: 15vw;
+    margin-right: 0vw;
 }
 
 .selected{
@@ -86,7 +86,7 @@ h2{
 }
 
 #welcome{
-    margin-left: 18vw;
+    margin-left: 15vw;
     width: 30vw;
     margin-top: 0;
     display: inline-block;
@@ -325,7 +325,7 @@ vertical-align: top;
     #left{
         display: block;
         width: 100vw;
-        margin-bottom: 300px !important;
+        margin-bottom: 180px !important;
         padding-bottom: 0;
         margin: 0;
         height: 40vh !important;
@@ -349,7 +349,7 @@ vertical-align: top;
 #speakerimg{
     width: 100vw;
     margin-bottom: 8vh;
-    margin-top: 10vh;
+    margin-top: 0vh;
     border-top:#7C5938 1px solid;
 }
 
@@ -368,7 +368,7 @@ vertical-align: top;
         display: block;
         width: 80vw;
         margin-left: 5vw;
-        margin-top: 0;
+        margin-top: 0 !important;
         margin-bottom: 500px !important;
         height: 450vh !important;
     }
@@ -468,8 +468,9 @@ width: 50vw !important;
 }
 
 #mainimage{
-width: 90vw;
-    object-fit: cover;
+height: 60vh;
+object-fit: cover;
+margin-top: 0vh;
 }
 
 iframe{
@@ -518,5 +519,10 @@ iframe{
 #divide{
     width: 50% !important;
     margin-left: 10vw !important;
+}
+
+#speakername{
+    padding-left: 15vw !important;
+    width: 70vw;
 }
 }
