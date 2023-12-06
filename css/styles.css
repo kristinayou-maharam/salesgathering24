@@ -423,6 +423,14 @@ vertical-align: top;
         margin-left: 33vw;
     }
 
+    #mobilelogo{
+        margin-left: 33vw;
+        margin-bottom: 0;
+        width: 150px;
+        margin-top: 13vw;
+        display: inline-block;
+    }
+
     #hamburger{
     display: inline-block;
     position: absolute;
@@ -532,5 +540,14 @@ iframe{
 #speakername{
     padding-left: 15vw !important;
     width: 70vw;
+}
+
+#exit{
+    z-index: 1200;
+    width: 30px;
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    left: 85vw;
 }
 }
