@@ -37,6 +37,13 @@
 
     </div>
 
+
+
+    <div id="mobleft">
+        <h1 style="color: red;margin-top: 10vh;"><a href="groupfivelist.html" style="margin-right: 10vw;">←</a>All<a href ="grouponelist.html" style="margin-left: 10vw;">→</a></h1>
+    </div>
+
+
     <div id="left" style="height: 720vh;">
    <h1 id="dates" style="color: red;">All</h1>
         <a href="grouponelist.html"><h1 class="linkcursor">Group 1</h1></a>
@@ -205,35 +212,33 @@
         </div>
         <script>
             function show() {
-                var mobnav = document.getElementById("mobilemenu");
-                var left = document.getElementById("left");
-                var right = document.getElementById("right");
-                var nav = document.getElementById("topnav");
-    
-                if (mobnav.style.display === "none"){
-                    mobnav.style.display = "block";
-                } else{
-                    mobnav.style.display = "none";
-                }
-    
-                if (left.style.display === "block"){
-                    left.style.display = "none";
-                } else{
-                    left.style.display = "block";
-                }
-                if (right.style.display === "block"){
-                    right.style.display = "none";
-                } else{
-                    right.style.display = "block";
-                }
-    
-                if (nav.style.display === "block"){
-                    nav.style.display = "none";
-                } else{
-                    nav.style.display = "block";
-                }
-            }
-    
-        </script> 
+                  var mobnav = document.getElementById("mobilemenu");
+                  var left = document.getElementById("mobleft");
+                  var right = document.getElementById("right");
+                  var nav = document.getElementById("topnav");
+      
+                  if (mobnav.style.display === "none"){
+                      mobnav.style.display = "block";
+                  } else{
+                      mobnav.style.display = "none";
+                  }
+                  if (left.style.display === "block"){
+                      left.style.display = "none";
+                  } else{
+                      left.style.display = "block";
+                  }
+                  if (right.style.display === "block"){
+                      right.style.display = "none";
+                  } else{
+                      right.style.display = "block";
+                  }
+      
+                  if (nav.style.display === "block"){
+                      nav.style.display = "none";
+                  } else{
+                      nav.style.display = "block";
+                  }
+              }
+        </script>
 </body>
 </html>

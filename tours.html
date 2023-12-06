@@ -35,6 +35,12 @@
         </div>
         <img id="hamburger" src="img/hamburger.svg" onclick="show()">
     </div>
+
+
+    <div id="mobleft">
+        <h1 style="color: red;margin-top: 10vh;"><a style="margin-right: 10vw;" href="chtour.html">←</a>Tour of the High Line<a href ="chtour.html" style="margin-left: 10vw;">→</a></h1>
+    </div>
+
     <div id="speakersleft" style="height: 200vh;">
 <h1 id="speakername" style="color: red;">High Line</h1>
 <a href="chtour.html"><h1 id="speakername" style="padding-right: 12vw;" class="linkcursor">A Dark, a Light, a Bright:The Designs of Dorothy Liebes</h1></a>
@@ -64,7 +70,7 @@ Designed in collaboration with James Corner Field Operations and Piet Oudolf, Th
         <script>
             function show() {
                 var mobnav = document.getElementById("mobilemenu");
-                var left = document.getElementById("speakersleft");
+                var left = document.getElementById("mobleft");
                 var right = document.getElementById("rightimg");
                 var nav = document.getElementById("topnav");
     
@@ -92,7 +98,8 @@ Designed in collaboration with James Corner Field Operations and Piet Oudolf, Th
                 }
             }
     
-        </script>   
+        </script>
+    
     
 </body>
 </html>
