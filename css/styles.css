@@ -321,9 +321,13 @@ vertical-align: top;
     display: none;
 }
 
+#mobleft{
+    display: none;
+}
+
 @media only screen and (max-width: 1000px){
     #left{
-        display: block;
+        display: none;
         width: 100vw;
         margin-bottom: 180px !important;
         padding-bottom: 0;
@@ -337,6 +341,10 @@ vertical-align: top;
     border: none;
     margin-left: 0;
     height: 100vh !important;
+    display: none;
+ }
+
+ #mobleft{
     display: block;
  }
 
