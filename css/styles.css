@@ -420,15 +420,18 @@ vertical-align: top;
     }
 
     #logo{
-        margin-left: 33vw;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        display: block !important;
     }
 
     #mobilelogo{
-        margin-left: 33vw;
+        margin-left: auto !important;
+        margin-right: auto !important;
         margin-bottom: 0;
         width: 150px;
         margin-top: 13vw;
-        display: inline-block;
+        display: block;
     }
 
     #hamburger{
