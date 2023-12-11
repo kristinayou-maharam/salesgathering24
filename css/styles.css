@@ -291,13 +291,14 @@ a{
 }
 
 #attendeenames{
-padding-left: 4vw;
+/* padding-left: 5vw; */
 display: inline-block;
 vertical-align: top;
+width: 15vw;
 }
 
 #contacts{
-    padding-left: 4vw;
+    padding-left: 5vw;
     display: inline-block;
     vertical-align: top;
     }
@@ -535,7 +536,12 @@ iframe{
 }
 
 #attendeenames{
-    width: 30vw;
+    width: 35vw;
+}
+
+#leader{
+    width: 100vw !important;
+    display: block;
 }
 
 #contacts{
