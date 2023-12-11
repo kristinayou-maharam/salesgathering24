@@ -148,6 +148,14 @@ h2{
     width: 20vw;
 }
 
+#speaker{
+    margin-left: 2vw;
+    margin-top: 0px;
+    display: inline-block;
+    position: relative;
+    width: 80vw;  
+}
+
 .linkcursor:hover{
     cursor: url("../img/arrow3.png"), auto; 
     text-decoration: underline;
@@ -391,6 +399,14 @@ width: 15vw;
         width: 40vw !important;
         text-align: left;
         margin-left: 20vw;
+    }
+
+    #speaker{
+        display: inline-block;
+        width: 80vw !important;
+        text-align: left;
+        margin-left: 20vw; 
+        margin-bottom: 3vh !important;
     }
 
     #eventextra{
